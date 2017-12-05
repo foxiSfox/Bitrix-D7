@@ -19,6 +19,6 @@ $section = $entity::getList(array(
     )
 ));
 
-if($s = $section->Fetch()){
+if($s = $section->fetch()){
     // selected data
 }
