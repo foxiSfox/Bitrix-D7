@@ -15,3 +15,8 @@ $res = UserTable::getList(array(
 if($u = $res->fetch()){
     //data user
 }
+
+$res = UserTable::getById(1);
+if($u = $res->fetch()){
+    //data user
+}
